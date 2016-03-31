@@ -52,7 +52,7 @@ describe('Async', function(){
                 });
 
                 calledBefore = Date.now();
-
+                
                 expect(called).to.be(undefined);
 
                 setTimeout(function(){
